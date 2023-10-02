@@ -21,7 +21,7 @@ public class GameTest {
     @Test
     public void shouldPlayer2Win() {
         Player Masha = new Player(1, "Маша", 80);
-        Player Misha = new Player(2, "Миша", 93);
+        Player Misha = new Player(2, "Миша", 94);
         Game game = new Game();
 
         game.register(Masha);
